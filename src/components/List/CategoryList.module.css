@@ -1,0 +1,12 @@
+.menuBar {
+    overflow-y: scroll;
+    overflow: -moz-scrollbars-none;
+    /* Hide scrollbar for Firefox */
+    /* Hide scrollbar for Internet Explorer and Edge */
+    -ms-overflow-style: none;
+    height: calc(100vh - 180px);
+}
+
+.menuBar::-webkit-scrollbar {
+    display: none;
+}

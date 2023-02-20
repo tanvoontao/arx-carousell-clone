@@ -9,9 +9,35 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/cache": "latest",
+    "@emotion/react": "latest",
+    "@emotion/server": "latest",
+    "@emotion/styled": "latest",
+    "@hookform/resolvers": "^2.9.11",
+    "@material-table/core": "^6.1.12",
+    "@material-table/exporters": "^1.0.12",
+    "@mui/material": "latest",
     "@next/font": "13.1.6",
+    "@reduxjs/toolkit": "^1.9.2",
+    "aos": "^2.3.4",
+    "axios": "^1.2.1",
+    "firebase": "^9.17.1",
     "next": "13.1.6",
+    "next-themes": "^0.2.1",
+    "nprogress": "^0.2.0",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-dropzone": "^14.2.3",
+    "react-firebase-hooks": "^5.1.1",
+    "react-hook-form": "^7.43.1",
+    "react-icons": "^4.7.1",
+    "react-redux": "^8.0.5",
+    "uuid": "^9.0.0",
+    "yup": "^1.0.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.4"
   }
 }
