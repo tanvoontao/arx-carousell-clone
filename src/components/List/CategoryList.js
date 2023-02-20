@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 import axios from "@/config/apis"
 import useAxios from "@/hooks/useAxios";
-import styles from './Categorylist.module.css';
+import styles from './CategoryList.module.css';
 import { useEffect, useState } from 'react';
 import { useSearchParams } from 'next/navigation';
 
